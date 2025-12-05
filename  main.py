@@ -1,6 +1,6 @@
 import os,shutil
 
-source = "/home/milk--/Desktop/ettercap-0.8.3.1"
+source = "generated_files"
 files = []
 
 # Collect all visible files in the source folder

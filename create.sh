@@ -9,7 +9,7 @@ mkdir -p "$FOLDER"
 
 # Function to generate random name
 random_name() {
-  tr -dc 'a-z0-9' </dev/urandom | head -c 8
+  tr -dc 'a-zA-Z0-9' </dev/urandom | head -c 4
 }
 
 # Create files
