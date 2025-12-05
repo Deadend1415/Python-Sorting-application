@@ -10,8 +10,8 @@ Run the script + name of the folder you want to sort
 ```bash
 python3 sort.py folder_name
 ```
-# It goes from this
+## It goes from this
 ![image](1.png)
 
-# To this 
+## To this 
 ![image](2.png)
