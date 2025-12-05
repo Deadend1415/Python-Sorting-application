@@ -1,6 +1,11 @@
-import os,shutil
+import os,shutil,sys
 
-source = "generated_files"
+if len(sys.argv) < 2:
+    print("Please provide a folder name")
+    exit()
+
+source = sys.argv[1]
+
 files = []
 
 # Collect all visible files in the source folder
