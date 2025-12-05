@@ -1,6 +1,6 @@
 #!/bin/bash
 
-FOLDER="generated_files"
+FOLDER=$1
 NUM_FILES=20
 EXTENSIONS=("txt" "py" "json" "html" "css" "md" "log")
 
